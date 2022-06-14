@@ -2,7 +2,7 @@ Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
-![](Diagrams/Final\ FINAL_P1-HW13_Diagram.png)
+![](/Diagrams/fulldiagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yaml file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -33,6 +33,7 @@ What does Filebeat watch for? Filebeat monitors log files or locations specified
 What does Metricbeat record? It collects metrics and statistics sending them to the output you specify.
 
 The configuration details of each machine may be found below.
+
 ![](/Diagrams/function.png)
 
 Access Policies
