@@ -47,7 +47,7 @@ Machines within the network can only be accessed by the Jump Box.
 
 A summary of the access policies in place can be found in the table below.
 
-
+![](/Diagrams/access.png)
 
 Elk Configuration
 
