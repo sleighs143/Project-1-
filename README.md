@@ -58,10 +58,10 @@ The playbook implements the following tasks:
 - In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 
 - Install docker
--Download ansible
--Configure elk-playbook.yml
--Push the playbook to the machines	
--Ssh into machine and confirm playbooks successful 
+- Download ansible
+- Configure elk-playbook.yml
+- Push the playbook to the machines	
+- Ssh into machine and confirm playbooks successful 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -70,11 +70,11 @@ The following screenshot displays the result of running `docker ps` after succes
 Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 - 10.2.0.5
--10.2.0.6
--10.2.0.7
+- 10.2.0.6
+- 10.2.0.7
 
 We have installed the following Beats on these machines:
--Specify which Beats you successfully installed filebeat.
+- Specify which Beats you successfully installed filebeat.
 
 These Beats allow us to collect the following information from each machine:
 - Filebeat collects data about the file system like log events, shipping them to the Elasticsearch cluster.
@@ -98,11 +98,11 @@ Answer the following questions to fill in the blanks:
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 
--Nano ansible.cfg
--Add the machines IP and ansible_python_interpreter=/usr/bin/python3 to hosts
--Ctrl x + Y to save and exit file
--In install-elk.yml folder run cp install-elk.yml /etc/ansible
--Nano install-elk.yml /etc/ansible
--Installing elk hosts: name- ( your machine )
--Ctrl x + Y to save and exit file
--Ansible-playbook install-elk.yml
+- Nano ansible.cfg
+- Add the machines IP and ansible_python_interpreter=/usr/bin/python3 to hosts
+- Ctrl x + Y to save and exit file
+- In install-elk.yml folder run cp install-elk.yml /etc/ansible
+- Nano install-elk.yml /etc/ansible
+- Installing elk hosts: name- ( your machine )
+- Ctrl x + Y to save and exit file
+- Ansible-playbook install-elk.yml
